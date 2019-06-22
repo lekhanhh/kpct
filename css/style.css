@@ -1,0 +1,302 @@
+*{margin:0;padding:0;}
+body {
+       width: 100%;
+       margin: 0%;    
+}
+/*Khoi Font Awesome*/
+.fontawesome .container-fluid{
+	height:28px;
+	background-color:#ECECEC;
+}
+.header-icon i {
+	height: 16px !important;
+	width: 16px !important;
+	float:right;
+	margin-right: 20px;
+	padding: 7px;
+	color:gray;
+}
+.header-icon i:hover{
+	color:red;	
+}
+
+.editlogo img{
+	height:50px;
+	margin-top:-10px;
+}
+
+/*Khoi headline*/
+/*.navbar-header{
+	height:59px;
+	width:100%;
+}*/
+.navbar-nav>li>a {
+    padding-top: 21px;
+    padding-bottom: 20px;
+}
+
+.collapse{
+	height:252px;
+}
+.wrapper{
+    position:relative;
+    float:right;
+
+}
+.wrapper button, input{
+	margin-top:-1.2em;
+    position: absolute;
+    border-radius: 25px;
+    border: 1px solid #ECECEC;
+/*    margin-left:30px;*/
+}
+.wrapper input{
+
+}
+.wrapper button{
+	background:white;
+	border:none;
+	position:absolute;
+	margin-left:150px;
+	margin-top:-1.15em;
+	color:gray;
+}
+
+.cbp-hrmenu button{
+	border:none;
+	margin-top:-0.3;
+}
+/*Khoi Menu*/
+
+.slide {
+	margin-top:0px;
+	height:auto !important;
+}
+.photo .item{
+	height:100%;
+	max-height: 1080px;
+	
+}
+
+.cardlayout {
+	height:auto;
+	margin-top:0px;
+	padding:0;
+} 
+
+.cardlayout .row{
+	margin-left:0px;
+	margin-right:0px;
+}
+.editthumnail {
+	margin-left:-5px;
+	margin-right:-5px;
+	margin-top:5px;
+	border:none;
+}
+.thumnail > a > img{
+	height:140px;
+	max-width:100%;
+}
+.editcaption h3{
+	font-family: "Benton Sans";
+	font-style: normal;
+    font-stretch: normal;
+    font-size: 15px;
+    font-weight:50;
+    color:orange;
+    margin-top:-28px;
+	text-transform: uppercase;
+    text-align:center;
+}
+.editcaption> p{
+	font-family: "Benton Sans";
+	font-style: normal;
+    font-stretch: normal;
+    font-size: 12px;
+    font-weight:50;
+    color:gray;
+}
+
+.info,.items{
+	position:relative;
+}
+.items{
+	font-size:12px;
+}
+.footerr {
+	height:90px;
+	background-color:#333333;
+	font-family: "Benton Sans";
+	font-style: normal;
+    font-stretch: normal;
+    font-size: 13px;
+    font-weight:50;
+	text-transform: uppercase;
+	color:white; 
+	z-index:0;
+} 
+
+@media screen and (min-width: 768px) and (max-width: 1024px) { 
+	#item > p{
+		margin-left:40px;
+	}
+	.editarticle{
+	  display:block;
+	  margin-bottom:400px;
+	  padding-bottom:39px;
+	}
+}
+@media screen and (min-width: 1200px) { 
+	.editarticle{
+	  display:block;
+	  margin-bottom:350px;
+	  padding-bottom:39px;
+	}
+}
+
+@media screen and (max-width: 414px) {
+	.cardlayout {
+		height:auto;
+	} 
+
+	.cardlayout .row{
+		margin-left:0px;
+		margin-right:0px;
+	}
+	.editthumnail {
+		margin-left:-12px;
+		margin-right:-12px;
+		margin-bottom:0px
+	}
+	.editcaption h3{
+	    font-size: 9px;
+	}
+	.editcaption> p{
+	    font-size: 8px;
+	}
+	.footerr {
+		font-size:10px;
+	}
+	.thumbnail h6{
+		visibility: hidden !important;
+	}
+}
+
+
+.text-right a{
+	text-decoration:none;
+	color:white;
+}
+.text-right a:hover{
+	text-decoration:none;
+	color:white;
+}
+.text-left a:hover{
+	text-decoration:none;
+	color:white;
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+.edittable{
+	color:gray;
+	font-family: "Benton Sans";
+}
+.bando{
+	color:gray;
+	font-family: "Benton Sans";
+	font-size:20px;
+}
+.editform{
+	font-size:16px;
+}
+.imgbq{
+	max-width: 100%;
+  	height: auto;
+}
+.thumbnail{
+	position:relative;	
+	float:left;
+	border:none;
+	width:100%;
+    height:0;
+    padding-bottom:95%;
+}
+.thumbnail img{
+	width:100%;
+	z-index:1;	
+}
+.thumbnail span.cover{
+	width:98%;
+	height:100%;
+	position:absolute;
+	z-index:2;
+	top:12px;
+	left:3px;
+	background-image:-webkit-linear-gradient(top,rgba(255,255,255,0) 60%,rgba(0,0,0,0.96) 100%);
+	border-bottom:4px solid red;
+	display:none;
+}
+
+.thumbnail .heading{
+	position:absolute;
+	z-index:2;
+	top:86%;
+	left:9%;
+	right:9%;
+	color:white;
+	font-family: "Benton Sans", SimHei, "Sim Hei", 华文细黑, STXihei, Arial, sans-serif;
+    font-style: normal;
+    font-stretch: normal;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    display: block;
+    letter-spacing: 0.6px;
+    text-shadow: rgba(0, 0, 0, 0.25) 4px 4px 10px;
+    display:none;
+}
+.thumbnail .subheading{
+	position:absolute;
+	z-index:2;
+	top:92%;
+	left:9%;
+	font-family: "Benton Sans", SimHei, "Sim Hei", 华文细黑, STXihei, Arial, sans-serif;
+    font-style: normal;
+    font-stretch: normal;
+    font-size: 11px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    line-height: 14px;
+    display: block;
+    text-transform: none;
+    letter-spacing: 0.3px;
+    text-shadow: rgba(0, 0, 0, 0.25) 4px 4px 10px;
+    display:none;
+}
+/*No BOotstrap*/
+.col-lg-5cols{
+    position: relative;
+    min-height: 1px;
+    padding-right: 3px;
+    padding-left: 3px;
+}
+
+@media (min-width: 1200px) {
+.col-lg-5cols {
+        width: 20%;
+        float: left;
+    }
+}
